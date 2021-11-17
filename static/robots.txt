@@ -1,0 +1,8 @@
+User-agent: *
+Crawl-delay: 100000
+Disallow: /img/*
+Disallow: /*.png
+Disallow: /*.jpg
+Disallow: /*.gif
+Disallow: /*.asc
+Disallow: /*.pdf

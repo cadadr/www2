@@ -1,0 +1,126 @@
+<html lang=en>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" type="image/png" href="avi.png"/>
+      <title>What is programming anyways?</title>
+      <style>
+	::selection {
+	    background: hotpink;
+	}
+	body {
+	    max-width: 40em;
+	    font-family: Atkinson Hyperlegible, OpenDyslexic, Sans serif;
+	    margin: auto;
+	    margin-top: 1em;
+	    padding: 1em;
+	}
+	/* fix the funk margin:auto causes. */
+	header, section, body > footer {
+	    padding: .5em 3em;
+	}
+	header abbr {
+	    text-decoration: none;
+	}
+	#logo {
+	    float: left;
+	    height: 6em;
+	    border-radius: 50%;
+	}
+        #badges{
+            text-align: center;
+        }
+	h1 {
+	    font-size: 3em;
+	    line-height: .8em;
+	    border-bottom: 1px dotted;
+	}
+	ul {
+	    padding-left: 0;
+	}
+	li {
+	    margin-top: 1em;
+	    list-style-type: hiragana;
+	    list-style-type: cjk-decimal;
+	}
+	hr {
+	    width: 50%;
+	}
+	p {
+	    text-align: justify;
+	}
+      </style>
+    </head>
+    <body>
+	<header>
+	    <h2 align=center>
+              <a href="index.html"> ~</a>/
+              <a href="what_is_prog.html">what_is_prog.html</a>
+	    </h2>
+	    <h1 align=center>
+	      What is programming anyways?
+            </h1>
+	</header>
+	<hr/>
+
+	<section id="description">
+	      <p>An attempt at an introductory text that aims to
+	      familiarise the complete newcomer with the concept of
+	      programming.</p>
+	</section>
+
+	<hr/>
+
+<section id="content">
+      <p>A <strong>computer</strong> essentially is a circuit that can direct electric signals among various components, and we use this to represent mathematical operations and also encode various data.</p>
+<p>We can represent almost anything with numbers: an alphabet can be represented using a number for each letter, text can be represented using one number for each character, geometrical shapes can be represented using points in a 2D or 3D plane, and we can represent more complex things using text and numbers.</p>
+<p>What a computer does is, it can store and process numbers, and we use numbers to mean different things. For example, we store text as a series of numbers representing letters and punctuation. We store computer programs as numbers that represent instructions that the computer can understand. A program that can display and edit text, for example, is just a large collection of instructions for the computer. Such a program knows how to ask the computer to display a certain piece of text, and the computer can set the colour of pixels on screen accordingly in order to make text appear. We encode colour as numbers too: numbers that represent the intensity of red, green and blue that is required to render that colour.</p>
+<p>So, how does this happen? How do we store numbers on a computer, and how does a computer tell numbers apart? Well, it can’t, really. What it does is, it can do different things depending on the level of voltage in its circuit. It is the simplest when we only use two different levels of voltage: high, and low. Turns out any number can be represented using a system with two digits (as opposed to common ten digits of the Arabic numeral system), so we take low voltage to mean ‘zero’ and high, ‘one’. We build on that concept a calculator that understands numerical and logical operations encoded using this system, and that’s what a computer essentially is. Later, we expand on this concept and add peripheral devices that can be controlled using a central computational unit that can control others in order to e.g. put images on screens, receive inputs from keyboards, mouses, microphones, etc. Usually, all these devices are miniature computers too, so what we often call a computer, e.g. the laptops and the desktops and smartphones and also dumbphones, and many other devices, are all nothing but devices that combine multiple different specialised computers into one harmonious contraption.</p>
+<p>If we track back a little bit, remember that we said we can use numbers to represent almost anything, including text. We also said that we use numbers to instruct computers to do many things. You could imagine it’s rather clumsy and difficult to keep all the numbers for instructions, letters, &amp;c in your mind. You would have to look them up all the time when creating programs and also while trying to fix or figure out how a program works. The first computers were programmed like this, they’d have a large board with switches, and you’d enter your program setting the numbers, one instruction at a time. But soon, as the technology advanced, we created a tool that’d make it so much more easy to program computers: we invented programming languages.</p>
+<p>A <strong>programming language</strong> is essentially two things: a very rigid <strong>grammar</strong> consisting of some unambiguous words and punctuation that represents instructions, and a program that understands this grammar, and reading <strong>text files</strong> written using this grammar, spits out the intended sequence of instructions as numbers.</p>
+<p>Let’s take a step back here and talk about text files. When we think of text, we think of letters on something that represent human speech in some ways. But there is more to it: written text, on computers or on paper, often includes information about layout and styling. So the programs that we use to write and store formatted, styled text on computers, called word processors, don’t just store text as it is, but actually a complex data structure that can record all these other properties that pertain to our text documents. In computer lingo, ‘text file’ is thus a rather ambiguous term: does it contain only the series of characters that make up the text, or does it also contain all the other information as well? In order to disambiguate, we use the term <strong>plain text</strong> for text that consist only of numbers that represent letters, punctuation, and various kinds of spacings; and <strong>rich text</strong> for text that is not represented as is, but as part of a data structure that can also record other properties.</p>
+<p>For computer programs, it’s almost a universal preference to use plain text files. That is because it’s just easier to write programs that deal with this kind of files. Programming is complex enough a task, and all the complications dealing with rich text files would just complicate it farther. That said, it is in no way impossible to use rich text files for programming, and there are some programming languages that use them out there, but plain text is preferred not only by a vast majority, but almost the entirety of programmers to this day.</p>
+<p>Let’s now return to programming languages themselves. We said that they have two parts, and we named one of them: grammar. The other part was left unnamed. That’s because there is some complexity there. There are different kinds of programs that understand text written according to the grammar and turns it into instructions. But before dealing with that, let’s learn a few more terms: the body of text that represents a program is called <strong>source code</strong> or <strong>code</strong> for short. The resulting series of instructions for the computer is a <strong>program</strong>. When the computer takes the instructions from a program and effectuates them, this is called <strong>execution</strong>, the computer <strong>executes</strong> the program. More colloquially, we say the computer <strong>runs</strong> the code or the program (here we use ‘code’ to refer to the program that results from the code, just like how we sometimes use a people’s name to refer their country). So, going back to where we were left, we want to name the programs that turn code into programs that a computer can execute. There are two major categories of such programs: <strong>compilers</strong> and <strong>interpreters</strong>. Compilers take code and produce a program as a separate file, called an <strong>executable</strong> file, which later don’t need the compiler in order to be run. Interpreters, on the other hand, translate code to instructions on the fly and don’t produce any executables. Most interpreters will also have a <strong>read eval print loop</strong>, or <strong><span class="caps">REPL</span></strong> for short, which is a program that executes instructions as you type them in, as opposed to whole code files at once. This is really useful, because it allows for a trial-and-error apporach to programming, which is called <strong>interactive programming</strong>.</p>
+<p>So, if we do another flashback, we can recall that programming languages were grammars that made it easier to write programs, but we left out how exactly they did this. Well, now we know the terminology and concepts required to talk about this, let’s find out how programming languages make programming easy and accessible.</p>
+<p>The earliest programming languages were the simplest: they just gave instructions a name, and a few other features. This kind of languages are called <strong>assembly</strong> languages. These were (and still mostly are) closely tied to the kinds of machines they are made for, e.g. the assembly language for computers with i386-based circuitry (very common for desktops and laptops) is different from that of arm-based computers (vast majority of mobile phones and tablets). This results in a very defining characteristic of programs written using assembly languages: if you want it to run on another kind of computer, you essentially need to rewrite the whole program in the assembly for that kind of computer. But on the plus side, because the language is tailored for the particular kind of computer, you have finer control and access many features of the computer directly.</p>
+<p>Programmers like to say that assembly languages are <strong>closer to the metal</strong>, metal meaning the actual computer hardware, because, as we said, they are just a slim wrapper around the instructions that a computer knows to execute, i.e. the computer’s <strong>instruction set</strong>. By the way, the series of actual instructions represented by numbers that constitute an executable also has a name: it’s called <strong>machine code</strong>, because it is the only kind of code that the computer directly understands. Our compilers and interpreters take code in some programming language, and in one way or another, turn it into machine code.</p>
+<p>If we imagine machine code as the very first level of abstraction over computer circuitry, then assembly languages come as the second level: they are an abstraction over machine code, for programmers’ convenience. But there is no reason to stop there, making our lives only slightly more convenient. We can fashion programming languages that capture routine tasks of programming into ready-made, more abstract instructions. As abstractions pile up on one another, we get a situation where we can think of a lasagne of abstractions, with many abstractions at each level. As we add on more abstractions, our code ends up less similar to the machine code, in other words, <strong>farther from metal</strong>. Programmers use this analogy to classify programming languages as ones that are <strong>low level</strong>, i.e. with less abstractions and thus closer to metal, and <strong>high level</strong>, i.e. with more abstractions and farther from metal.</p>
+<p>Assembly language is very verbose: when programming using an assembly language, you need to break up each task into many simple steps that a computer can understand. For example, if you wanted to add two numbers and store the result somewhere, you can’t just say <span class="math">x = 2 + 3. You have to store 2 and 3 somewhere, then use the <code>add</code> instruction, and store the result somewhere else, all manually:</span></p>
+<pre><code>store &lt;value1&gt; &lt;place1&gt;
+store &lt;value2&gt; &lt;place2&gt;
+add &lt;place1&gt; &lt;place2&gt;
+store &lt;result&gt; &lt;place3&gt;</code></pre>
+<p>That’s too much effort for casually adding two numbers. And it gets worse as programs grow more and more complex. Imagine having to ask a friend pick something up for you. If you talked to them in assembly, you’d be telling them how to exactly move their feet to go somewhere, moving their arms in the meantime to keep in balance, then exact movements to approach the object, and down to how should they move their fingers to grab the thing, and even more. Way harder than just saying “Please bring that thing to me.”</p>
+<p>Programmers created high level languages for two reasons: one is, as we said above, it is difficult to program using assembly languages because it requires so much effort to get even the simplest things done, and thus it’s both less productive and more error prone. The other reason is, as we mentioned earlier, assembly languages are tailored for particular instruction sets, so if you want code written for the very common Intel computers to run on computers with different instruction sets, you need to rewrite the whole program, and later, as you develop the program further, you actually need to develop two programs simultaneously. To remedy these pain points, higher level programming languages were developed. High level languages use abstractions to make programming more convenient, and they also use abstractions to allow for using same code to produce executables for different kinds of computers, resulting in <strong>portable</strong> programs.</p>
+<p>Another major dichotomy in classifying programming languages is <strong>general-purpose</strong> vs. <strong>domain-specific</strong>. General-purpose programming languages are not meant for a specific domain, i.e. you can write any program using a general-purpose language. Domain-specific languages on the other hand are meant for a certain task. For example, <a href="https://www.gimp.org/"><span class="caps">GIMP</span></a>, a <a href="https://wikipedia.org/en/Free_and_open-source_software">free and open source</a> program for editing images, includes a domain-specific programming language for automating tasks and adding brushes, etc.</p>
+<p>Programming languages come in thousands and with great variety. Unlike what they might seem like, they are essentially very simple tools that are not that difficult to make, so people have made many of them. But some stand out as excellent ones that are used by lots and lots of people.</p>
+<p>One of the most historically relevant programming languages is called <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>. It was developped in 1972 as a compiled, general purpose, higher level, portable programming language. It soon became popular, and influenced many other programming languages. To this day it is one of the most popular programming languages, still preferred because it sits on a sweet spot just above low level languages, providing both portability <em>and</em> fine grain control of the computer’s features.</p>
+<p>Another very successful programming language is <a href="https://wikipedia.org/en/Python_(programming_language)">Python</a>, which was created in 1990. It is an interpreted, general purpose, high level and very portable programming language. It’s been very successfull and very popular, and it’s a go-to language for the scientific community.</p>
+<p>So, now we know a few other ways to classify languages and the names of a couple high level ones, let’s talk about what actually the abstractions they provide are. First of all, all high level languages provide some means to write basic mathematical operations like addition, subtraction, etc. easily. They also provide convenient ways to store values using <strong>variables</strong>. Variables can be named anything. For example, in Python</p>
+<pre><code>x = 1 + 2</code></pre>
+<p>means exactly what it says: store the sum of 1 and 2 in the variable named <code>x</code>.</p>
+<p>Another convenience high level language provide regards reusing bits of code that don’t do a highly specific task. For example, calculating the Nth power of some number, or sticking two pieces of text together are very generic tasks. You could just write out the required instructions every time you need, but programming languages allow for writing code like this once and reusing it for different values. The simplest of tools for reusing code are <strong>functions</strong>, also known as <strong>subroutines</strong> or <strong>procedures</strong>. A function is just a list of instructions grouped together, and possibly parameterised for some input values, often called <strong>arguments</strong>. Let’s see what a futile, redundant function that adds two numbers together looks like in Python:</p>
+<pre><code>def add(x, y):
+    return x + y</code></pre>
+<p>As we’ll learn how to actually program, we’ll see how useful functions are.</p>
+<p>The goods that higher level languages provide is not limited to functions. They also facilitate using complex data structures, with representational tools called <strong>compound data structures</strong>. For example, in Python, you have <strong>lists</strong> which can contain other values, including other lists. Using these compound structures, you can represent almost anything: a list of two numbers can represent a coordinate on a plane, a list of two coordinates can represent a line. Again, for a time value in hours and minutes, a list with two numbers can be used. Another compound structure in Python is called <strong>dictionary</strong>, in which you can store values and recall them by name later.</p>
+<p>Functions are a very useful tool to store common operations. Some operations are so common that they are grouped into a package that’s to be reused later elsewhere. For example, if you needed to make use of some statistics in a program, one option is to just write the functions to compute the required statistics. But what if you need to compute the same statistics in another program? You’d have to rewrite the statistics functions, or copy-paste and adapt them. A better approach is to collect statistics functions into a package that other programs can refer to when they need to do some stats. Indeed, using and writing such packages is very common. Programmers collect functions that pertain to some certain task into packages called <strong>libraries</strong>, which are essentially just a bunch of code files that contain the relevant definitions.</p>
+<p>Most programming languages come with what’s termed a <strong>standard library</strong>, which is basically a collection of libraries which are distributed with the programming language itself. Python is known and revered for it’s rather large, comprehensive standard library that facilitates many things like doing statistics, processing data in <span class="caps">CSV</span> files, and much much more.</p>
+<p>The users of a given programming language are termed its <strong>community</strong>. These people tend to share their libraries and programs publically with each other, and help each other with the development of those. Python is well known for its vast community and lots of great libraries that its community has created, including some that are very useful for scientific computing and digital humanities. These libraries deal with processing data, statistics, plotting, natural language processing, easy application of artificial intelligence methods, and many others. All these people and their activity around a language constitutes its <strong>ecosystem</strong>. Languages with bigger ecosystems, that is, bigger communities and larger number of libraries, are more favourable for beginners over those with smaller ecosystems because otherwise it means doing more work by oneself and having less people out there to ask for help. But bigger ecosystem does not automatically mean a good, healthy one: a healthy ecosystem is one in which the community is friendly and libraries are of high quality.</p>
+<p>Finally, larger programs are often organised into many source code files, and often each one of such files are called <strong>modules</strong>. While not strictly required, it’s common and useful practice to split functionality into modules by topic instead of just randomly. For example, a program that records weather forecasts from the internet and produces graphs could be split into two modules, one for collecting the data, and another one for doing the stats and producing the graphs. It is customary to think of modules as <strong>components</strong> of a larger system: just like organs are self-contained but interdependent components of an organism’s body, modules are (not necessarily, but preferably) self-contained units whose interaction comprises the program. If modules are nicely self contained, it’s possible to swap them out easily, and then our program is <strong>modular</strong>. This is really desirable because it reduces the effort required when making large changes. For example, if we wanted our weather graphs program to source its data from a file on our computer instead of the internet, and if we wrote program modularly, we can just add a new module that uses the files we have and use that one instead.</p>
+<p>So, we learnt a good deal of things, terminology and jargon here, good enough to allow us to begin learning programming, or <strong>coding</strong>, as many programmers say. To recap briefly: we discussed how computers work, how and why we got programming languages, how code is organised in high level languages, and why Python is a great language. We also briefly touched the social aspect of programming, i.e. how programmers behave and interact to form an ecosystem around a programming language.</p>
+    </section>
+
+
+	<hr/>
+	<footer>
+	    <small>
+		<small>
+		    Copyright &copy; Göktuğ Kayaalp. All rights reserved.
+		</small>
+	    </small>
+	</footer>
+    </body>
+</html>
+
