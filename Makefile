@@ -22,11 +22,7 @@ watch:
 out/%.html: pages/%.markdown $(SRCS)
 	./transform.sh $< > $@
 
-.gitignore: .gitignore.in Makefile
-	cp $< $@
-	echo "$(PAGES)" | tr ' ' '\n' >> $@
-
 clean:
-	rm
+	rm out/*
 
 .PHONY: all clean watch
