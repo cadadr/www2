@@ -86,7 +86,6 @@ body > header h1 {
 }
 
 a {
-    background: var(--bg);
     color: var(--fg);
     font-weight: 700;
     text-decoration: underline 3px;
