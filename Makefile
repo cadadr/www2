@@ -29,7 +29,7 @@ all: $(PAGES) $(SRCS) .gitignore
 	cp static/* out/
 
 watch:
-	ls $(PAGES) $(SRCS) | entr make all
+	ls $(PAGES) $(SRCS) static/* | entr make all
 
 out/%.html: pages/%.markdown $(SRCS)
 	./transform.sh $< > $@

@@ -12,8 +12,8 @@ I also go by [cadadr] on the internet.
 I’m a master’s student in [linguistics at Hacettepe University][idb],
 currently working on my thesis.
 
-I speak Turkish (native), English (C1), and Italian (B2); and [enjoy
-messing around with computers][gh] when I find the time.
+I speak Turkish, English, and Italian; and [enjoy messing around with
+computers][gh] when I find the time.
 
 ## Links
 
