@@ -1,0 +1,93 @@
+/* style.css --- global stylesheet */
+
+:root {
+    font-family: DejaVu Sans, Sans Serif;
+}
+
+body {
+    max-width: 72ch;
+
+    line-height: 1.5;
+
+    margin: auto;
+    padding: 2ch;
+}
+
+body > header {
+    padding: 10px;
+    margin-right: 0;
+    border-bottom: 1px solid;
+}
+
+body > header h1 {
+    text-align: right;
+    font-variant: small-caps;
+    font-family: DejaVu Sans, Sans Serif;
+    font-weight: 100;
+}
+
+#avatar {
+    width: 10ch;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 2ch;
+}
+
+ul li {
+    list-style-type: '〜 ';
+}
+
+section.footnotes {
+    font-size: .8em;
+    line-height: 1;
+}
+
+section.footnotes ol {
+    padding-left: 2ch;
+}
+
+section.footnotes ol li::marker {
+    font-weight: 700;
+    font-size: .7em;
+}
+
+section.footnotes hr {
+    width: 40%;
+    border: none;
+    border: 1px solid;
+    margin-left: 0;
+}
+
+footer {
+    font-size: .7em;
+    text-align: right;
+    border-top: 1px solid;
+}
+
+a.footnote-ref {
+    text-decoration: none;
+}
+
+article.linkblog {
+    border-top: 1px dotted;
+}
+
+article.linkblog p.date {
+    font-family: Monospace;
+    font-size: .9em;
+    text-align: right;
+}
+
+article.linkblog div.comment {
+    width: 90%;
+    margin: auto;
+    font-family: DejaVu Sans Condensed, Sans Serif;
+    font-size: .95em;
+    line-height: 1;
+    text-align: justify;
+}
+

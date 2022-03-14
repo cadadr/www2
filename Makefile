@@ -16,7 +16,8 @@ OUTDIR=out
 PAGES:=$(wildcard pages/*.markdown)
 PAGES:=$(PAGES:%.markdown=%.html)
 PAGES:=$(PAGES:pages/%=out/%)
-SRCS=$(wildcard partials/_*.html)
+LINKBLOG=out/linkblog/index.html out/linkblog/feed.xml
+SRCS=$(wildcard partials/_*.html) $(wildcard linkblog/*)
 
 help:
 	@echo Targets:
@@ -25,8 +26,13 @@ help:
 	@echo "	help	show this help message"
 	@echo "	watch	automatic build"
 
-all: $(PAGES) $(SRCS) .gitignore
+all: _outdirs $(PAGES) $(LINKBLOG) $(SRCS) .gitignore
 	cp static/* out/
+	cp linkblog/style.css out/linkblog/
+
+_outdirs:
+	[ -d $(OUTDIR) ]          || mkdir -p $(OUTDIR)
+	[ -d $(OUTDIR)/linkblog ] || mkdir -p $(OUTDIR)/linkblog
 
 watch:
 	ls $(PAGES) $(SRCS) static/* | entr make all
@@ -34,7 +40,13 @@ watch:
 out/%.html: pages/%.markdown $(SRCS)
 	./transform.sh $< > $@
 
-clean:
-	rm out/*
+out/linkblog/index.html: $(wildcard linkblog/*)
+	ruby linkblog/linkblog.rb html > $@
 
-.PHONY: all clean watch
+out/linkblog/feed.xml: $(wildcard linkblog/*)
+	ruby linkblog/linkblog.rb atom > $@
+
+clean:
+	rm -r $(OUTDIR)
+
+.PHONY: all clean watch outdirs
