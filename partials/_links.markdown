@@ -14,5 +14,4 @@
 [ResearchGate]: https://www.researchgate.net/profile/Goektug_Kayaalp
 [self\@]: mailto:self@gkayaalp.com
 [pomodorotm]: https://en.wikipedia.org/wiki/Pomodoro_Technique
-[pubkey]: pubkey.asc
 [pkmit]: http://pgp.mit.edu/pks/lookup?op%3Dvindex&search%3D0x465CD949B1012427

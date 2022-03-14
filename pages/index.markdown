@@ -21,12 +21,14 @@ computers][gh] when I find the time.
 * Code: [github.com/cadadr][gh]; some highlights: [my Elisp][src-elisp],
   [pomodorino](./pomodorino.html) and [dotfiles].
 * Blog: [cadadr.dreamwidth.org][dw] [^2].
+* I have a [linkblog](./linkblog/) where I post links with comments.
 * My profiles on [ORCiD], [Humanities Commons][hcommons], [OSF],
   [ResearchGate].
 
 ## Contact
 
-* Email: [self\@gkayaalp.com][self\@] ([pubkey], [on MIT keyserver][pkmit]).
+* Email: [self\@gkayaalp.com][self\@] ([pubkey](./pubkey.asc), [on MIT
+  keyserver][pkmit]).
 * Mention me on [\@cadadr\@weirder.earth][we],
   [\@cadadr\@types.pl][types], [twitter.com/\@cadadr][birb].
 
