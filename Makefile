@@ -16,7 +16,7 @@ OUTDIR=out
 PAGES:=$(wildcard pages/*.markdown)
 PAGES:=$(PAGES:%.markdown=%.html)
 PAGES:=$(PAGES:pages/%=out/%)
-LINKBLOG=out/linkblog/index.html out/linkblog/feed.xml
+LINKBLOG=out/linkblog/index.html out/linkblog/feed.xml out/linkblog/style.css
 SRCS=$(wildcard partials/_*.html) $(wildcard linkblog/*)
 
 help:
@@ -28,14 +28,13 @@ help:
 
 all: _outdirs $(PAGES) $(LINKBLOG) $(SRCS) .gitignore
 	cp static/* out/
-	cp linkblog/style.css out/linkblog/
 
 _outdirs:
 	[ -d $(OUTDIR) ]          || mkdir -p $(OUTDIR)
 	[ -d $(OUTDIR)/linkblog ] || mkdir -p $(OUTDIR)/linkblog
 
 watch:
-	ls $(PAGES) $(SRCS) static/* | entr make all
+	git ls-files | grep -Ev '^./(out|.git)' | entr make all
 
 out/%.html: pages/%.markdown $(SRCS)
 	./transform.sh $< > $@
@@ -45,6 +44,9 @@ out/linkblog/index.html: $(wildcard linkblog/*)
 
 out/linkblog/feed.xml: $(wildcard linkblog/*)
 	ruby linkblog/linkblog.rb atom > $@
+
+out/linkblog/style.css: static/style.css linkblog/style.css
+	cat $+ > $@
 
 clean:
 	rm -r $(OUTDIR)

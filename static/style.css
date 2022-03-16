@@ -1,9 +1,5 @@
 /* style.css --- global stylesheet */
 
-:root {
-    font-family: Palatino Linotype, Palatino, Serif;
-}
-
 body {
     max-width: 72ch;
 
@@ -11,6 +7,24 @@ body {
 
     margin: auto;
     padding: 2ch;
+
+    background: floralwhite;
+    color: darkslateblue;
+
+    font-family: Sans-Serif;
+}
+
+a {
+    color: blueviolet;
+}
+
+a:visited {
+    color: darkslategray;
+    text-decoration-color: blueviolet;
+}
+
+a:active {
+    color: crimson;
 }
 
 body > header {
@@ -22,8 +36,13 @@ body > header {
 body > header h1 {
     text-align: right;
     font-variant: small-caps;
-    font-family: DejaVu Sans, Sans Serif;
-    font-weight: 100;
+    font-family: Sans-Serif;
+    font-weight: normal;
+    color: thistle;
+}
+
+body > header nav, h1, h2, h3 {
+    font-family: Sans-serif;
 }
 
 #avatar {

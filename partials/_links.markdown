@@ -15,3 +15,5 @@
 [self\@]: mailto:self@gkayaalp.com
 [pomodorotm]: https://en.wikipedia.org/wiki/Pomodoro_Technique
 [pkmit]: http://pgp.mit.edu/pks/lookup?op%3Dvindex&search%3D0x465CD949B1012427
+[src-gemini]: https://github.com/cadadr/gemini-scripts
+[gemini]: https://gemini.circumlunar.space/
