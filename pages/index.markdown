@@ -36,4 +36,4 @@ computers][gh] when I find the time.
   [«linguistics preprints»](./lingpreprints.html); [«what is
   programming anyways»](./what_is_prog.html); and [my ibrik (turkish)
   coffee recipes](./turkish-coffee.html).
-[^3]: [pubkey](./pubkey.asc), [on MIT keyserver][pkmit]
+[^3]: [My pubkey](./pubkey.asc), also available [on MIT keyserver][pkmit].

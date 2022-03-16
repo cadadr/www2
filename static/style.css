@@ -28,17 +28,23 @@ a:active {
 }
 
 body > header {
-    padding: 10px;
+    padding-bottom: 10px;
     margin-right: 0;
     border-bottom: 1px solid;
 }
 
 body > header h1 {
+    padding: 10px;
     text-align: right;
     font-variant: small-caps;
     font-family: Sans-Serif;
     font-weight: normal;
     color: thistle;
+}
+
+body > header nav {
+    margin: 0;
+    padding: 0;
 }
 
 body > header nav, h1, h2, h3 {
