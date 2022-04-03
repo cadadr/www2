@@ -8,23 +8,7 @@ body {
     margin: auto;
     padding: 2ch;
 
-    background: floralwhite;
-    color: darkslateblue;
-
-    font-family: Sans-Serif;
-}
-
-a {
-    color: blueviolet;
-}
-
-a:visited {
-    color: darkslategray;
-    text-decoration-color: blueviolet;
-}
-
-a:active {
-    color: crimson;
+    font-family: Atkinson Hyperlegible, DejaVu Sans, Sans-serif;
 }
 
 body > header {
@@ -37,18 +21,12 @@ body > header h1 {
     padding: 10px;
     text-align: right;
     font-variant: small-caps;
-    font-family: Sans-Serif;
     font-weight: normal;
-    color: thistle;
 }
 
 body > header nav {
     margin: 0;
     padding: 0;
-}
-
-body > header nav, h1, h2, h3 {
-    font-family: Sans-serif;
 }
 
 #avatar {
