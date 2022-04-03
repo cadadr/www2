@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Göktuğ Kayaalp</name>
+  </author>
+  <id>https://gkayaalp.com/linkblog.xml</id>
+  <subtitle>&lt;p&gt;This is a static microblog where I (&lt;a
+    href=&quot;https://gkayaalp.com&quot;&gt;who?&lt;/a&gt;)
+post links with comments.&lt;/p&gt;
+
+&lt;p&gt;My main blog is &lt;a href=&quot;https://cadadr.dreamwidth.org&quot;&gt;on
+    DreamWidth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This has been discontinued, follow the
+&lt;a href=&quot;https://cadadr.dreamwidth.org/tag/linkposting&quot;&gt;#linkposting&lt;/a&gt;
+tag on my main blog
+(&lt;a href=&quot;https://cadadr.dreamwidth.org/data/atom?tag=linkposting&quot;&gt;Atom feed&lt;/a&gt;).&lt;/p&gt;
+</subtitle>
+  <title>Göktuğ's Link Blog</title>
+  <updated>2022-04-03T10:12:08+03:00</updated>
+  <entry>
+    <id>https://github.com/PubPeerFoundation/pubpeer_zotero_plugin</id>
+    <link href="https://github.com/PubPeerFoundation/pubpeer_zotero_plugin"/>
+    <summary>&lt;p&gt;&lt;a href=&quot;https://pubpeer.com/&quot;&gt;PubPeer&lt;/a&gt; is a moderated post-publication review platform where academic journal publications can be discussed outside the &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer_review&quot;&gt;peer review&lt;/a&gt; process.&lt;/p&gt;
+&lt;p&gt;Peer review is highly regarded, but like many other highly regarded stuff in academia, is deeply problematic in multiple ways. Publications in and of themselves are highly problematic, and PubPeer thus can only be effective after something manages to go thru that biased and flawed filter, but still, I like a grassroots effort like this.&lt;/p&gt;
+&lt;p&gt;This Zotero extension displays any existing PubPeer comments for stuff that’s in your Zotero database.&lt;/p&gt;
+</summary>
+    <title>Zotero plugin that displays associated PubPeer comments</title>
+    <updated>2022-03-15T03:51:47+03:00</updated>
+    <dc:date>2022-03-15T03:51:47+03:00</dc:date>
+  </entry>
+  <entry>
+    <id>https://news.ycombinator.com/item?id=30560381</id>
+    <link href="https://news.ycombinator.com/item?id=30560381"/>
+    <summary>&lt;p&gt;The comment in the links is a response to &lt;a href=&quot;https://news.ycombinator.com/item?id=30559783&quot;&gt;this one&lt;/a&gt; which is the usual «piracy gone too far» response, as above, to a submission about a browser extension that can bypass paywalls (and that’s what it’s transparently called). The reply is cool in that it points out how we &lt;strong&gt;always&lt;/strong&gt; had some way of reading the all the news for free.&lt;/p&gt;
+&lt;p&gt;This is indeed a major problem with subscriptions and DRM’ed media, i.e. they are only accessible so long as you pay, and only to people those who pay. But we always had the papers and magazines in the waiting rooms, and we always had, even before the commoditised papers and books, the library.&lt;/p&gt;
+</summary>
+    <title>Sometimes even on HN, people call out bullshit!</title>
+    <updated>2022-03-15T00:20:54+03:00</updated>
+    <dc:date>2022-03-15T00:20:54+03:00</dc:date>
+  </entry>
+  <dc:date>2022-04-03T10:12:08+03:00</dc:date>
+</feed>
