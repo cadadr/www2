@@ -1,5 +1,4 @@
 [birb]: https://twitter.com/cadadr
-[cadadr]: http://www.lispworks.com/documentation/HyperSpec/Body/14_aa.htm
 [dw]: https://cadadr.dreamwidth.org
 [dotfiles]: https://github.com/cadadr/configuration
 [gh]: https://github.com/cadadr
