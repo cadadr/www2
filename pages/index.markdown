@@ -23,7 +23,8 @@ languages.
 
 ## Links
 
-* I'm [\@cadadr on twitter][birb] [^1].
+* I'm [\@cadadr on twitter][birb] [^1] and <a rel="me"
+  href="https://weirder.earth/@cadxdr">\@cadxdr on weirder.earth</a>.
 * See my [hacks page](./hacks.html) for my interesting computery stuff,
   or visit [github.com/cadadr][gh] to see all my public repos.
 * I blog at [cadadr.dreamwidth.org][dw] [^2].
