@@ -42,6 +42,19 @@ ul {
 
 ul li {
     list-style-type: '〜 ';
+
+a.footnote-ref sup {
+    font-size: .7em;
+    line-height: 1;
+    font-family: serif;
+}
+
+a.footnote-ref sup:before {
+    content: '['
+}
+
+a.footnote-ref sup:after {
+    content: ']'
 }
 
 section.footnotes {
