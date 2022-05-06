@@ -7,7 +7,8 @@ language="en"
 
 I am <abbr title="/gœk.'tuˑ/">Göktuğ</abbr>
 <small>(<abbr title="English pronouns.">they/he</abbr>)</small>;
-I often go by [cadadr](cadadr.html) online.
+I often go by [cadadr](cadadr.html) online, or its variation,
+"cadxdr".
 
 Currently a
 <abbr title="second cycle, 'yüksek lisans' in Turkish">master’s</abbr>
@@ -24,10 +25,14 @@ languages.
 ## Links
 
 * On the [fediverse](https://en.wikipedia.org/wiki/Fediverse)
-  you can find me as \@cadxdr on <a rel="me"
-  href="https://weirder.earth/@cadxdr">weirder.earth</a>,
-  on <a rel="me" href="https://scholar.social/@cadxdr">scholar.social</a>,
-  and on <a rel="me" href="https://mastodon.technology/@cadxdr">mastodon.technology</a>.
+  you can find me as \@cadxdr on
+  * <a rel="me" href="https://weirder.earth/@cadxdr">weirder.earth</a>:
+    my personal, private account,
+  * <a rel="me" href="https://scholar.social/@cadxdr">scholar.social</a>:
+    for to research/uni/otherwise scholarly stuff,
+  * <a rel="me" href="https://mastodon.technology/@cadxdr">
+       mastodon.technology</a>:
+    my account for techy/software stuff.
 * I'm [\@cadadr on twitter][birb] [^1].
 * See my [hacks page](./hacks.html) for my interesting computery stuff,
   or visit [github.com/cadadr][gh] to see all my public repos.
