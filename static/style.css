@@ -41,7 +41,16 @@ ul {
 }
 
 ul li {
-    list-style-type: '〜 ';
+    list-style-type: '🏵️ ';
+}
+
+ul li li {
+    list-style-type: '🌸 ';
+}
+
+ul li li li {
+    list-style-type: '💮 ';
+}
 
 a.footnote-ref sup {
     font-size: .7em;
