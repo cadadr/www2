@@ -36,6 +36,7 @@ languages.
 * I'm [\@cadadr on twitter][birb] [^1].
 * See my [hacks page](./hacks.html) for my interesting computery stuff,
   or visit [github.com/cadadr][gh] to see all my public repos.
+* I maintain some [playlists](./playlists.html).
 * I blog at [cadadr.dreamwidth.org][dw] [^2].
 * My profiles on [ORCiD], [Humanities Commons][hcommons], [OSF],
   [ResearchGate].
