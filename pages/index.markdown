@@ -30,9 +30,6 @@ languages.
     my personal, private account,
   * <a rel="me" href="https://scholar.social/@cadxdr">scholar.social</a>:
     for to research/uni/otherwise scholarly stuff,
-  * <a rel="me" href="https://mastodon.technology/@cadxdr">
-       mastodon.technology</a>:
-    my account for techy/software stuff.
 * I'm [\@cadadr on twitter][birb] [^1].
 * See my [hacks page](./hacks.html) for my interesting computery stuff,
   or visit [github.com/cadadr][gh] to see all my public repos.
