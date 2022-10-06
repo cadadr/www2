@@ -37,6 +37,7 @@ languages.
 * I blog at [cadadr.dreamwidth.org][dw] [^2].
 * My profiles on [ORCiD], [Humanities Commons][hcommons], [OSF],
   [ResearchGate].
+* My [web page at Hacettepe University](https://yunus.hacettepe.edu.tr/~goktug.kayaalp/).
 
 ## Contact
 
