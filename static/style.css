@@ -1,7 +1,7 @@
 /* style.css --- global stylesheet */
 
 body {
-    max-width: 72ch;
+    max-width: 50ch;
 
     line-height: 1.5;
 
@@ -31,9 +31,8 @@ body > header nav {
 
 #avatar {
     width: 10ch;
-    border-radius: 50%;
     float: right;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul {
