@@ -19,8 +19,6 @@ Italian are second languages.
     coffee recipes](./turkish-coffee.html)</small>
 * [ORCiD], [Humanities Commons][hcommons], [OSF], [ResearchGate]
 * [web page at Hacettepe University](https://yunus.hacettepe.edu.tr/~goktug.kayaalp/).
-* <a rel="me" href="https://scholar.social/@cadxdr">
-  cadxdr@scholar.social</a>
 * [github.com/cadadr][gh]
 * [playlists](./playlists.html)
 
