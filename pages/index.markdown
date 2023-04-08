@@ -19,7 +19,7 @@ Italian are second languages.
     coffee recipes](./turkish-coffee.html)</small>
 * [ORCiD], [Humanities Commons][hcommons], [OSF], [ResearchGate]
 * [web page at Hacettepe University](https://yunus.hacettepe.edu.tr/~goktug.kayaalp/).
-* [github.com/cadadr][gh]
+* [codeberg.org/cadadr][codeberg], [github.com/cadadr][gh]
 * [playlists](./playlists.html)
 
 ## Contact

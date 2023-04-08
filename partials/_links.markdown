@@ -3,8 +3,6 @@
 [dotfiles]: https://github.com/cadadr/configuration
 [gh]: https://github.com/cadadr
 [idb]: http://www.idb.hacettepe.edu.tr/
-[types]: https://types.pl/@cadadr
-[we]: https://weirder.earth/@cadadr
 [src-elisp]: https://github.com/cadadr/elisp
 [src-pomodorino]: https://github.com/cadadr/pomodorino
 [ORCiD]: https://orcid.org/0000-0002-9283-2319
@@ -16,3 +14,4 @@
 [pkmit]: http://pgp.mit.edu/pks/lookup?op%3Dvindex&search%3D0x465CD949B1012427
 [src-gemini]: https://github.com/cadadr/gemini-scripts
 [gemini]: https://gemini.circumlunar.space/
+[codeberg]: https://codeberg.org/cadadr
