@@ -1,0 +1,5 @@
+URL/URL path to exclude: gkayaalp.com (and all subdomains)
+
+time period of domain ownership: 2012-12-04 to present
+
+time period to exclude: 2013-01-01 to 2023-01-01
