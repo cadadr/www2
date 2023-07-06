@@ -41,6 +41,11 @@ ul {
     padding-left: 2ch;
 }
 
+p, blockquote {
+    text-align: justify;
+    hyphens: auto;
+}
+
 a.footnote-ref sup {
     font-size: .7em;
     line-height: 1;
@@ -80,6 +85,10 @@ footer {
     font-size: .7em;
     text-align: right;
     border-top: 1px solid;
+}
+
+footer p {
+    text-align: right;
 }
 
 a.footnote-ref {
