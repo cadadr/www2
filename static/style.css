@@ -1,6 +1,7 @@
 /* style.css --- global stylesheet */
 
 body {
+    max-width: 600px;           /*fallback*/
     max-width: 50ch;
     min-height: 101vh;          /*always show scrollbar*/
 
