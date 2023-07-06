@@ -10,7 +10,8 @@ body {
     margin: auto;
     padding: 2ch;
 
-    font-family: Atkinson Hyperlegible, DejaVu Sans, Sans-serif;
+    font-family: Palatino Linotype, Times New Roman, Serif;
+    font-size: 12pt;
 }
 
 body > header {
