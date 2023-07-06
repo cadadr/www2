@@ -3,13 +3,15 @@ language="en"
 
 # _Selam!_
 
-<abbr title="/gœk.'tuˑ/">Göktuğ</abbr>
-<small>(<abbr title="English pronouns.">they/he</abbr>)</small>.
-<abbr title="second cycle, 'yüksek lisans' in Turkish">Master’s</abbr>
+<abbr title="Pronunciation (IPA): /gœk.'tuˑ/">Göktuğ</abbr>. <abbr
+title="second cycle, 'yüksek lisans' in Turkish">Master’s</abbr>
 student in [English Linguistics at Hacettepe University][idb],
-*thesising*.  Learning to study majoritised identity discourses, with
-a focus on identity building. Turkish is my first language; English and
-Italian are second languages.
+*thesising*. Learning to study privileged&/majoritised identity
+discourses, and the interaction of discourse and space. Turkish is my
+first language; English and Italian are second languages.
+
+I usually go by [cadadr](cadadr.html) or
+[kütüptiyini](kütüptiyini.html) online.
 
 ## Links
 
