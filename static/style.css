@@ -23,7 +23,6 @@ body > header {
 body > header h1 {
     padding: 10px;
     text-align: right;
-    font-variant: small-caps;
     font-weight: normal;
 }
 
