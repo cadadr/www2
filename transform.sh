@@ -1,7 +1,7 @@
 #!/bin/sh
 # transform.sh --- markdown -> html
 
-# Copyright (C) 2021 İ. Göktuğ Kayaalp <self at gkayaalp dot com> This
+# Copyright (C) 2021, 2023 İ. Göktuğ Kayaalp <self at gkayaalp dot com> This
 # file is part of “Göktuğ’s homepage”.
 #
 # “Göktuğ’s homepage” is non-violent software: you can use,
@@ -16,7 +16,8 @@
 # POSIX strict-ish mode, beware eager pipelines!
 set -eu
 
-infil=$1
+infil="$1"
+lastup="$(LANG=en LANG=en git log -1 --pretty=format:%cD $infil)"
 
 eval "$(sed -e 's/\$/\\$/g' -e '//,$d' $infil)"
 
@@ -27,5 +28,6 @@ sed -e '1,//d' -e '$s/$/\n\n/' $infil  \
     | sed 's/^/    /'                    \
     | cat partials/_head.html - partials/_foot.html \
     | sed -e "s/@@LANG@@/$language/g"    \
-          -e "s/@@TITLE@@/$title/g"
+          -e "s/@@TITLE@@/$title/g"      \
+          -e "s/@@LASTUPDATE@@/$lastup/g"
 
