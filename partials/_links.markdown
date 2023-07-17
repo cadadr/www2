@@ -2,7 +2,7 @@
 [dw]: https://cadadr.dreamwidth.org
 [dotfiles]: https://github.com/cadadr/configuration
 [gh]: https://github.com/cadadr
-[idb]: http://www.idb.hacettepe.edu.tr/
+[idb]: https://idb.hacettepe.edu.tr/
 [src-elisp]: https://github.com/cadadr/elisp
 [src-pomodorino]: https://github.com/cadadr/pomodorino
 [ORCiD]: https://orcid.org/0000-0002-9283-2319
