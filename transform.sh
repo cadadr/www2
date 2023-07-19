@@ -16,11 +16,13 @@
 # POSIX strict-ish mode, beware eager pipelines!
 set -eu
 
+# Load the page variables from the top of the input.
 infil="$1"
-lastup="$(LANG=en LANG=en git log -1 --pretty=format:%cD $infil)"
-lastup="${lastup:-Unknown}"
-
 eval "$(sed -e 's/\$/\\$/g' -e '//,$d' $infil)"
+
+# Ask git to give us the date, in the page's language.
+lastup="$(LANG=$language git log -1 --pretty=format:%cD $infil)"
+lastup="${lastup:-Unknown}"
 
 sed -e '1,//d' -e '$s/$/\n\n/' $infil  \
     | cat - partials/_links.markdown     \
