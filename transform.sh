@@ -18,6 +18,7 @@ set -eu
 
 infil="$1"
 lastup="$(LANG=en LANG=en git log -1 --pretty=format:%cD $infil)"
+lastup="${lastup:-Unknown}"
 
 eval "$(sed -e 's/\$/\\$/g' -e '//,$d' $infil)"
 
