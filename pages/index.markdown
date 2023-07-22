@@ -19,7 +19,7 @@ I usually go by [cadadr](cadadr.html) or
   * <small>salvaged posts from lost blog: [«linguistics preprints»](./lingpreprints.html);
     [«what is programming anyways»](./what_is_prog.html); and [my ibrik (turkish)
     coffee recipes](./turkish-coffee.html)</small>
-* [ORCiD], [Humanities Commons][hcommons], [OSF], [ResearchGate]
+* [ORCiD], [OSF], [ResearchGate]
 * [web page at Hacettepe University](https://yunus.hacettepe.edu.tr/~goktug.kayaalp/)
 * [codeberg.org/kutuptiyini][codeberg], [github.com/cadadr][gh]
 * [playlists](./playlists.html)
