@@ -15,10 +15,10 @@ I usually go by [cadadr](cadadr.html) or
 
 ## Links
 
-* blog at [cadadr.dreamwidth.org][dw]
-  * <small>salvaged posts from lost blog: [«linguistics preprints»](./lingpreprints.html);
-    [«what is programming anyways»](./what_is_prog.html); and [my ibrik (turkish)
-    coffee recipes](./turkish-coffee.html)</small>
+* blog at [cadadr.dreamwidth.org][dw]  
+  <small>salvaged posts from lost blog: [«linguistics preprints»](./lingpreprints.html);
+  [«what is programming anyways»](./what_is_prog.html); and [my ibrik (turkish)
+  coffee recipes](./turkish-coffee.html)</small>
 * <a rel="me" href="https://scholar.social/@kutuptiyini">@kutuptiyini@scholar.social</a>
   on [Mastodon](https://en.wikipedia.org/wiki/Mastodon_\(social_network\))/[Fediverse](https://en.wikipedia.org/wiki/Fediverse)
 * [ORCiD], [OSF], [ResearchGate]
