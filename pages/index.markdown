@@ -19,8 +19,6 @@ I usually go by [cadadr](cadadr.html) or
   <small>salvaged posts from lost blog: [«linguistics preprints»](./lingpreprints.html);
   [«what is programming anyways»](./what_is_prog.html); and [my ibrik (turkish)
   coffee recipes](./turkish-coffee.html)</small>
-* <a rel="me" href="https://scholar.social/@kutuptiyini">@kutuptiyini@scholar.social</a>
-  on [Mastodon](https://en.wikipedia.org/wiki/Mastodon_\(social_network\))/[Fediverse](https://en.wikipedia.org/wiki/Fediverse)
 * profiles on [ORCiD], [OSF], [ResearchGate], [Humanities Commons][hcommons]
 * [web page at Hacettepe University](https://yunus.hacettepe.edu.tr/~goktug.kayaalp/)
 * [codeberg.org/kutuptiyini][codeberg], [github.com/cadadr][gh]
